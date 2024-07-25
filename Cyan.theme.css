@@ -20,7 +20,7 @@
 :root {
 	--cyan-interface-shadow: 0 4px 10px 0 rgb(0 0 0 / 60%);
 	--cyan-font: 'Montserrat', 'Open Sans';
-	--cyan-background-img: url("https://discuss-cdn.kde.org/uploads/default/original/2X/1/13d52b177e13b4ccf15e00f06a55985b13774e66.jpeg");
+	--cyan-background-img: url("https://dablulite.github.io/Cyan/cyan-waves.png");
 	--cyan-accent-color: #006d9f;
 	--cyan-blur: 48px;
 	--cyan-radius-round-interface: 50px;

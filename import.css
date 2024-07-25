@@ -6474,3 +6474,7 @@ code {
   margin-bottom: 20px;
   background: transparent;
 }
+
+.botTagRegular_a9e77f {
+  background-color: var(--text-link);
+}
