@@ -1,0 +1,65 @@
+#app-mount .winButton_a934d8 > svg {
+    background-image: none !important;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+    scale: .6;
+}
+#app-mount .winButton_a934d8 > svg :is(polygon, g, path, rect) {
+    fill: currentColor !important;
+    display: -webkit-box !important;
+    transform: scale(1.3);
+    transform-origin: center;
+}
+#app-mount .winButtonMinMax_a934d8:nth-of-type(3) > svg :is(polygon, g, path, rect) {
+    fill: transparent !important;
+}
+#app-mount .winButton_a934d8 {
+    order: unset !important;
+    height: 48px !important;
+    width: 48px !important;
+    margin-left: 2px !important;
+    transition: .2s ease !important;
+    box-sizing: border-box;
+    padding: 12px;
+    top: 0;
+    margin-top: 0 !important;
+    transform: unset;
+    border-radius: var(--cyan-radius-medium);
+}
+#app-mount .winButton_a934d8:hover {
+    background-color: var(--cyan-second-layer) !important;
+    box-shadow: var(--cyan-interface-shadow) !important;
+}
+.winButtonClose_a934d8 {
+    margin-left: 5px !important;
+    margin-right: calc((var(--window-margin) * 2px)) !important;
+}
+#app-mount .winButton_a934d8 > svg {
+    background: none;
+    border: none;
+}
+#app-mount .typeWindows_a934d8 {
+    justify-content: end !important;
+    width: 150px !important;
+    height: 48px !important;
+    right: 18px;
+    top: 18px;
+    margin: 0 !important;
+    left: unset;
+    gap: 0;
+    z-index: +3000;
+}
+.platform-win #app-mount .guilds_a4d4d9 {
+    margin-top: 16px !important;
+    height: calc(100% - 16px) !important;
+}
+#customcss-tab {
+    padding-right: calc((59px*3) + 21px);
+}
+.toolbar_e44302 {
+    padding-right: 160px;
+}
